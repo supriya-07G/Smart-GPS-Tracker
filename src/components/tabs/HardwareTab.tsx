@@ -12,7 +12,7 @@ const HardwareTab: React.FC = () => {
       image: "/assets/images/arduino-nano.jpg"
     },
     {
-      name: "LoRa RA-02 Module",
+      name: "LoRa R-2a Module",
       model: "SX1278",
       specs: ["433MHz Frequency", "22dBm Max Power", "1-5m Range", "LoRa Modulation"],
       description: "Long-range wireless communication module",
@@ -36,7 +36,7 @@ const HardwareTab: React.FC = () => {
       image: "/assets/images/esp32.jpg"
     },
     {
-      name: "LoRa RA-02 Module",
+      name: "LoRa R-2a Module",
       model: "SX1278",
       specs: ["433MHz Frequency", "Receiver Mode", "1-5m Range", "Low Power"],
       description: "LoRa receiver module for GPS data reception",
