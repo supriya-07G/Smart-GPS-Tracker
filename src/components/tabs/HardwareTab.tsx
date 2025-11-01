@@ -14,7 +14,7 @@ const HardwareTab: React.FC = () => {
     {
       name: "LoRa RA-02 Module",
       model: "SX1278",
-      specs: ["433MHz Frequency", "22dBm Max Power", "10km+ Range", "LoRa Modulation"],
+      specs: ["433MHz Frequency", "22dBm Max Power", "1-5m Range", "LoRa Modulation"],
       description: "Long-range wireless communication module",
       image: "/assets/images/lora-module.jpg"
     },
@@ -38,7 +38,7 @@ const HardwareTab: React.FC = () => {
     {
       name: "LoRa RA-02 Module",
       model: "SX1278",
-      specs: ["433MHz Frequency", "Receiver Mode", "10km+ Range", "Low Power"],
+      specs: ["433MHz Frequency", "Receiver Mode", "1-5m Range", "Low Power"],
       description: "LoRa receiver module for GPS data reception",
       image: "/assets/images/lora-module.jpg"
     }
