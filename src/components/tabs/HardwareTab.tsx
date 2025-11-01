@@ -78,11 +78,6 @@ const HardwareTab: React.FC = () => {
           {transmitterComponents.map((component, index) => (
             <Card key={index} className="component-card">
               <CardHeader className="text-center">
-                <img 
-                  src={component.image} 
-                  alt={component.name}
-                  className="w-full h-40 object-cover rounded-lg mb-3"
-                />
                 <CardTitle className="text-lg">{component.name}</CardTitle>
                 <Badge variant="outline">{component.model}</Badge>
               </CardHeader>
@@ -105,14 +100,7 @@ const HardwareTab: React.FC = () => {
             <CardTitle>Transmitter Wiring Diagram</CardTitle>
           </CardHeader>
           <CardContent>
-            <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
-              <div className="wiring-diagram">
-                <img 
-                  src="/assets/images/transmitter-wiring.jpg" 
-                  alt="Transmitter Wiring Diagram"
-                  className="w-full rounded-lg"
-                />
-              </div>
+            <div>
               <div>
                 <h4 className="font-semibold mb-3">Pin Connections</h4>
                 <div className="space-y-2">
@@ -137,11 +125,6 @@ const HardwareTab: React.FC = () => {
           {receiverComponents.map((component, index) => (
             <Card key={index} className="component-card">
               <CardHeader className="text-center">
-                <img 
-                  src={component.image} 
-                  alt={component.name}
-                  className="w-full h-40 object-cover rounded-lg mb-3"
-                />
                 <CardTitle className="text-lg">{component.name}</CardTitle>
                 <Badge variant="outline">{component.model}</Badge>
               </CardHeader>
@@ -164,14 +147,7 @@ const HardwareTab: React.FC = () => {
             <CardTitle>Receiver Wiring Diagram</CardTitle>
           </CardHeader>
           <CardContent>
-            <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
-              <div className="wiring-diagram">
-                <img 
-                  src="/assets/images/receiver-wiring.jpg" 
-                  alt="Receiver Wiring Diagram"
-                  className="w-full rounded-lg"
-                />
-              </div>
+            <div>
               <div>
                 <h4 className="font-semibold mb-3">Pin Connections</h4>
                 <div className="space-y-2">
