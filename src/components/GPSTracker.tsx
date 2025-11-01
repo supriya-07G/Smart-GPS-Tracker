@@ -101,7 +101,7 @@ const GPSTracker: React.FC = () => {
       <header className="bg-primary text-primary-foreground shadow-sm">
         <div className="container mx-auto px-4 py-6">
           <div className="text-center">
-            <h1 className="text-3xl font-bold mb-2">Smart GPS Tracker Using LoRa</h1>
+            <h1 className="text-3xl font-bold mb-2">Smart GPS Tracker</h1>
             <p className="text-lg opacity-90">Real-Time Wireless Tracking System</p>
           </div>
         </div>

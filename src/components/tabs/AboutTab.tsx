@@ -46,7 +46,7 @@ const AboutTab: React.FC = () => {
   return (
     <div className="space-y-6">
       <div className="text-center mb-8">
-        <h2 className="text-3xl font-bold text-foreground mb-4">Smart GPS Tracker Using LoRa</h2>
+        <h2 className="text-3xl font-bold text-foreground mb-4">Smart GPS Tracker</h2>
         <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
           A cutting-edge wireless GPS tracking system that combines the power of LoRa long-range communication 
           with precise GPS positioning for reliable asset tracking and monitoring applications.
