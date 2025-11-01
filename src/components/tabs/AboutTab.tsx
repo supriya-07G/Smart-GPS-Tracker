@@ -16,8 +16,8 @@ const AboutTab: React.FC = () => {
   const features = [
     {
       icon: <Wifi className="h-6 w-6" />,
-      title: "Long Range Communication",
-      description: "LoRa technology enables communication up to 10+ kilometers in open areas with minimal power consumption."
+      title: "Wireless Communication",
+      description: "LoRa R-2a module enables communication up to 1-5 metres with minimal power consumption."
     },
     {
       icon: <MapPin className="h-6 w-6" />,
@@ -37,7 +37,7 @@ const AboutTab: React.FC = () => {
   ];
 
   const specifications = [
-    { category: "Communication", items: ["LoRa 433MHz", "Range: 10+ km", "Modulation: LoRa/FSK"] },
+    { category: "Communication", items: ["LoRa R-2a 433MHz", "Range: 1-5m", "Modulation: LoRa/FSK"] },
     { category: "GPS Accuracy", items: ["2.5m CEP", "50 channels", "Cold start: 27s"] },
     { category: "Power Supply", items: ["3.7V Li-ion", "10,000mAh capacity", "54+ hours operation"] },
     { category: "Interface", items: ["WiFi web dashboard", "Real-time updates", "CSV data export"] }
@@ -139,7 +139,7 @@ const AboutTab: React.FC = () => {
             
             <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mt-6">
               <div className="text-center p-4 bg-muted rounded-lg">
-                <div className="text-2xl font-bold text-primary">10+ km</div>
+                <div className="text-2xl font-bold text-primary">1-5m</div>
                 <p className="text-sm text-muted-foreground">Communication Range</p>
               </div>
               <div className="text-center p-4 bg-muted rounded-lg">
@@ -156,7 +156,7 @@ const AboutTab: React.FC = () => {
               <h4 className="font-semibold mb-2">Key Advantages:</h4>
               <ul className="list-disc list-inside space-y-1 text-sm text-muted-foreground">
                 <li>Ultra-low power consumption for battery-powered devices</li>
-                <li>Long-range communication capabilities (up to 15km line-of-sight)</li>
+                <li>Short-range communication capabilities (1-5 metres)</li>
                 <li>Excellent penetration through buildings and obstacles</li>
                 <li>No subscription fees - operates in unlicensed spectrum</li>
                 <li>Robust against interference and jamming</li>
